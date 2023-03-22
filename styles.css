@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif; 
-    background-color: #004DFF;
+    
  }
  
  header{
 display: flex;
 height: 116px;
 padding:30px;
-background-color: #001eff;
+background-color:#001eff;
 align-items: center;
-
 
  }
 
@@ -50,7 +49,7 @@ padding: 25px;
 text-decoration: none;
  }
 
- .middletext{
+ .forside{
     display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -58,6 +57,7 @@ text-decoration: none;
 			height: 100vh;
 			color: #fff;
 			font-family: 'Lato', sans-serif;
+         background-color: #001eff;
  }
 h1{
     font-size: 24pt;
@@ -71,4 +71,52 @@ h2{
     padding: 0;
     text-align: center;
 }
- 
+
+
+ .træningstyper{
+   background-color:#fff;
+}
+p{text-align: center;}
+
+ .bokse{
+   display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 524px;
+    margin-top: 15%;
+   }
+.bokse section {width: 33.33%;
+   height: 100%;}
+
+#styrketræning {
+background-color: #004DFF;}
+#cardio{
+background-color: #2B2B2A;}
+
+#calisthenics{
+background-color: #747376;}
+
+.bokse h1{
+color: #fff;
+margin-top: 35%;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 10px;
+font-size: 18pt;
+}
+.bokse h2{ 
+color: #fff;
+margin-top: 10%;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 4px;
+font-size: 12pt;
+}
+
+
+
+
+
+
+
+
