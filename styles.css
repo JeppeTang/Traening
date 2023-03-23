@@ -76,8 +76,14 @@ h2{
 
  #træningstyper{
    background-color:#fff;
+   
+   
 }
-p{text-align: center;}
+p{text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+  margin-top: 50px;
+}
 
 
 
@@ -138,19 +144,28 @@ font-size: 12pt;
    min-height: 100vh;
    }
 
+
+
+#cardio2{background-color:#2B2B2A ;
+   width: 100%;
+   min-height: 100vh;}
+
+#calisthenics2{
+   background-color:#747376 ;
+   width: 100%;
+   min-height: 100vh;
+}
+
 .tekstboks{
    
 width: 450px;
-background: #004DFF;
+background: #001eff;
 padding: 50px;
 margin:50px;
 margin-left: 270px;
-
 box-sizing: 0 0 5px rgba(0,0,0,0.5);
 color: #fff;
-
 }
-
 .tekstboks h2{
    margin-bottom: 10px;
    text-transform: uppercase;
@@ -162,6 +177,44 @@ color: #fff;
    line-height: 1.4;
    text-align: justify;
 }
+.tekstboks2{
+   width: 450px;
+   background: #2B2B2A;
+   padding: 50px;
+   margin:50px;
+   margin-left: 270px;
+   box-sizing: 0 0 5px rgba(0,0,0,0.5);
+   color: #fff;}
+.tekstboks2 h2{
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   letter-spacing: 1px;}
+
+.tekstboks2 p{
+   line-height: 1.4;
+   text-align: justify;}
+
+.tekstboks3{
+   width: 450px;
+   background: #747376;
+   padding: 50px;
+   margin:50px;
+   margin-left: 270px;
+   box-sizing: 0 0 5px rgba(0,0,0,0.5);
+   color: #fff;
+
+}
+.tekstboks3 h2{
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.tekstboks3 p{
+   line-height: 1.4;
+   text-align: justify;
+}
+
+
 #check{display: none;}
 
 .content{display: none;}
