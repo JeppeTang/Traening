@@ -127,7 +127,10 @@ font-size: 12pt;
 
 
   
-
+.bigger-section{
+   display: flex;
+   align-content: center;
+}
 
 #styrke{
    background-color: #001eff;
@@ -136,13 +139,16 @@ font-size: 12pt;
    }
 
 .tekstboks{
+   
 width: 450px;
 background: #004DFF;
-padding: 20px;
-margin:0 auto;
+padding: 50px;
+margin:50px;
+margin-left: 270px;
+
 box-sizing: 0 0 5px rgba(0,0,0,0.5);
 color: #fff;
-align-items: end;
+
 }
 
 .tekstboks h2{
@@ -181,6 +187,21 @@ label{
    display:block;
  visibility: visible;
 }
+
+
+
+.billeder{
+   display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 65px;
+  
+}
+.billeder img{
+   width: 350px;
+   margin: 35px 20px 20px 20px;
+}
+
 
 
 
