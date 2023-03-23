@@ -28,16 +28,14 @@ justify-content: center;
  nav{
     flex: 0.80;
     display:flex;
-    justify-content: center;
+    justify-content: center;}
 
-
- }
  ul{
 list-style: none;
 margin: 0;
-padding: 0;
+padding: 0;}
 
- }
+
  li{
 display: inline-block;
 font-size: 18pt;
@@ -49,6 +47,8 @@ color: #fff;
 padding: 25px;
 text-decoration: none;
  }
+
+
 
  .forside{
     display: flex;
@@ -124,6 +124,72 @@ font-size: 12pt;
   text-align: center;
 }
 
+
+
+  *{margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+
+#styrke{
+   background-color: #001eff;
+   width: 100%;
+   min-height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-content: center;
+}
+
+.tekstboks{
+width: 450px;
+background: #004DFF;
+padding: 20px;
+margin:0 auto;
+box-sizing: 0 0 5px rgba(0,0,0,0.5);
+color: #fff;
+}
+
+.tekstboks h2{
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.tekstboks p{
+   line-height: 1.4;
+   text-align: justify;
+}
+#check{display: none;}
+
+.content{display: none;}
+
+label{
+   display: inline-block;
+   margin-top: 15px;
+   color: aquamarine;
+   text-decoration: underline;
+   cursor: pointer;
+   font-weight: 600;
+}
+#check:checked ~ .content{
+   display:block;
+}
+
+#check:checked ~ label{
+   visibility: hidden;
+}
+
+#check:checked ~ label:after{
+   content:'Vis mindre';
+   display:block;
+ visibility: visible;
+}
+
+
+
+
+ 
 
 
 
