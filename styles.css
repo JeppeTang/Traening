@@ -126,20 +126,14 @@ font-size: 12pt;
 
 
 
-  *{margin: 0;
-padding: 0;
-box-sizing: border-box;
-} 
+  
 
 
 #styrke{
    background-color: #001eff;
    width: 100%;
    min-height: 100vh;
-   display:flex;
-   justify-content: center;
-   align-content: center;
-}
+   }
 
 .tekstboks{
 width: 450px;
@@ -148,12 +142,14 @@ padding: 20px;
 margin:0 auto;
 box-sizing: 0 0 5px rgba(0,0,0,0.5);
 color: #fff;
+align-items: end;
 }
 
 .tekstboks h2{
    margin-bottom: 10px;
    text-transform: uppercase;
    letter-spacing: 1px;
+   
 }
 
 .tekstboks p{
@@ -167,7 +163,7 @@ color: #fff;
 label{
    display: inline-block;
    margin-top: 15px;
-   color: aquamarine;
+   color: #fff;
    text-decoration: underline;
    cursor: pointer;
    font-weight: 600;
@@ -181,7 +177,7 @@ label{
 }
 
 #check:checked ~ label:after{
-   content:'Vis mindre';
+   content:'Læs mindre';
    display:block;
  visibility: visible;
 }
