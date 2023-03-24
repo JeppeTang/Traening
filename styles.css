@@ -73,11 +73,14 @@ h2{
     text-align: center;
 }
 
-
- #træningstyper{
-   background-color:#fff;
-   
-   
+#træningstyper h1{
+   text-align: left;
+}
+#træningstyper h2{
+   text-align: left;
+}
+ #træningstyper p{
+  text-align: left;  
 }
 p{text-align: center;
    font-family: 'Lato', sans-serif;
